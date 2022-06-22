@@ -1,0 +1,119 @@
+* { /*asterix centers all text*/
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  body { /*body*/
+    text-align: center; 
+    background:#E8E8E8;
+  }
+  
+  h2 { /*header size#2*/
+    color: #3F3F3F;
+    text-decoration: underline;
+    float: none;
+    text-align: center;
+    font-family: monospace;
+    font-size: 26px; 
+    padding-top: 130px;
+  }
+  
+  p { /*paragraph*/
+    color: #3F3F3F; 
+    font-family: monospace; 
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20.5px; 
+  }
+  
+  .wrapper { /*content center*/
+    width: 1170px;
+      margin: 0 auto;
+  }
+  
+  header { /*navigation header plate*/
+      height: 100px;
+      background: #262626;
+      width: 100%;
+      z-index: 10;
+  }
+
+  
+  .logo { /*Text logo*/
+      width: 30%;
+      float: left;
+      line-height: 100px;
+  }
+  .logo a { /*Text logo*/
+      text-decoration: none;
+      font-size: 30px;
+      font-family: monospace;
+      float:left;
+      color: #FFFFFF;
+      letter-spacing: 5px;
+  }
+  
+  nav { /*navigation text alignment*/ 
+      float: right;
+      line-height: 100px;
+  }
+  
+  nav a { /*navigation anchor url text button*/
+      text-decoration: none;
+      font-family: monospace;
+      letter-spacing: 4px;
+      font-size: 20px;
+      margin: 0 10px;
+      color: #FFFFFF;
+  }
+
+  .content { /*Adds top-space btwn pg-border and h2/p html elements*/
+    padding-top: 33%;
+  }
+  
+  a:hover {
+    color:#f08080;  
+  }
+  
+  /*Profile Cardz*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+    max-height: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .title {
+    color: #808080;
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  button {
+	border: none;
+	display: inline-block;
+	font-family: monospace;
+	padding: 8px;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+    	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 17.5px;
+    font-family: monospace;
+    color: #000000;
+  }
+
+  button:hover {
+    opacity: 0.7;
+  }
+
